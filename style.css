@@ -1,0 +1,119 @@
+.container {
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1fr 4fr;
+}
+
+.left {
+    display: grid;
+    grid-template-rows: 100px 200px
+}
+
+.dash {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.nav , .nav2 {
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.nav:hover , .nav2:hover{
+    cursor: pointer;
+}
+
+.right {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    gap: 5px;
+
+}
+
+.top {
+    display: grid;
+
+}
+
+.top1 {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+.top1-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#search {
+    width: 500px;
+    border-radius: 20px;
+    height: 25px;
+}
+
+.top2 {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+.top2-left {
+    display: grid;
+    grid-template-columns: 100px 200px;
+}
+
+.btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: blue;
+    color: black;
+    border-style: dotted;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 15px;
+}
+
+.bottom-right {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.articles-down {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+
+.articles {
+    font-size: large;
+}
+
+.article-heading {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.projects {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+
+
